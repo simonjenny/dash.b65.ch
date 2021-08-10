@@ -1,0 +1,176 @@
+{
+	"notsosecret": "4CjceKarKpy9KjZqTKi7jgD9JP9bVio2wvJNyF7Z3HUedLiNsFxvgwKYLF4gLSK72Uwk8EKbNspu2qj3ewnw4DrnnZXQ4d6k",
+	"strings": [
+		"Gute Nacht, Simon!",
+		"Guten Morgen, Simon!",
+		"Guten Nachmittag, Simon!",
+		"Guten Abend, Simon!"
+	],
+	"apps": [
+	{
+		"name": "Lux",
+		"url": "https://lux.local",
+		"icon": "server"
+	},
+	{
+		"name": "Oasis",
+		"url": "https://oasis.local",
+		"icon": "server"
+	},
+	{
+		"name": "Obsidian",
+		"url": "http://192.168.192.8:9000/#!/1/docker/dashboard",
+		"icon": "server"
+	},
+
+	{
+		"name": "Plex",
+		"url": "https://media.simonjenny.dev",
+		"icon": "plex"
+	},
+	{
+		"name": "Ombi",
+		"url": "https://ombi.simonjenny.dev",
+		"icon": "movie-search-outline"
+	},
+	{
+		"name": "Radarr",
+		"url": "http://192.168.192.2:7878",
+		"icon": "filmstrip"
+	},
+	{
+		"name": "Sonarr",
+		"url": "http://192.168.192.2:8989",
+		"icon": "television-box"
+	},
+	{
+		"name": "Tautulli",
+		"url": "http://192.168.192.2:8181/home",
+		"icon": "movie-roll"
+	},
+
+	{
+		"name": "Home Assistant",
+		"url": "https://home.simonjenny.dev",
+		"icon": "home-assistant"
+	},
+	{
+		"name": "AdGuard",
+		"url": "http://192.168.192.7:3000",
+		"icon": "shield-home-outline"
+	},
+	{
+		"name": "Nginx Proxy Manager",
+		"url": "http://192.168.192.4:8181",
+		"icon": "server-network"
+	},
+
+	{
+		"name": "qBittorrent",
+		"url": "http://192.168.192.2:8080",
+		"icon": "cloud-download-outline"
+	},
+	{
+		"name": "ESPHome",
+		"url": "http://192.168.192.3:6052",
+		"icon": "chip"
+	},
+	{
+		"name": "Uptime",
+		"url": "http://192.168.192.3:3001/dashboard",
+		"icon": "monitor-eye"
+	},
+
+	{
+		"name": "simonjenny.dev CMS",
+		"url": "https://simonjenny.dev.wp-01.wraxx.ch/wp/wp-admin/",
+		"icon": "wordpress"
+	}
+	],
+	
+	"bookmarks": [{
+		"category": "Social Media",
+		"links": [{
+				"name": "Instagram",
+				"url": "https://instagram.com"
+			},
+			{
+				"name": "Facebook",
+				"url": "https://facebook.com"
+			}]
+		},
+		{
+		"category": "News",
+		"links": [{
+				"name": "Reddit",
+				"url": "https://reddit.com/new"
+			},
+			{
+				"name": "Watson",
+				"url": "https://watson.ch"
+			},
+			{
+				"name": "Gizmodo",
+				"url": "https://gizmodo.com"
+			},
+			{
+				"name": "Heise",
+				"url": "https://heise.de/"
+			},
+			{
+				"name": "Golem",
+				"url": "https://golem.de/"
+			}]
+		},
+		{
+		"category": "Dev",
+		"links": [{
+				"name": "Github",
+				"url": "https://github.com/"
+			},
+			{
+				"name": "Github Trending",
+				"url": "https://github.com/trending"
+			},
+			{
+				"name": "Devdocs",
+				"url": "https://devdocs.io"
+			},
+			{
+				"name": "Devhints",
+				"url": "https://devhints.io"
+			}]
+		},
+		{
+		"category": "Media",
+		"links": [{
+				"name": "Spotify",
+				"url": "http://open.spotify.com"
+			},
+			{
+				"name": "YouTube",
+				"url": "https://youtube.com/feed/subscriptions"
+			}]
+		},
+		{
+		"category": "Business",
+		"links": [{
+				"name": "Hetzner",
+				"url": "https://console.hetzner.cloud/projects"
+			},
+			{
+				"name": "Digitalocean",
+				"url": "https://cloud.digitalocean.com/login"
+			},
+			{
+				"name": "OpenSRS",
+				"url": "https://manage.opensrs.com/"
+			},
+			{
+				"name": "OpenProvider",
+				"url": "https://cp.openprovider.eu/account/dashboard.php"
+			}]
+		}
+	]
+}
+
