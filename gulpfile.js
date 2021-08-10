@@ -78,4 +78,4 @@ gulp.task('clean', function () {
     return del(['build', 'src/lib'])
 });
 
-gulp.task('default',  gulp.series('download','templates','scripts', 'styles','images', 'public','clean','deploy'));
+gulp.task('default',  gulp.series('download','templates','scripts', 'styles','images', 'public','deploy'));
