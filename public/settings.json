@@ -51,7 +51,7 @@
 
 	{
 		"name": "Home Assistant",
-		"url": "https://home.simonjenny.dev",
+		"url": "http://192.168.192.3:8123",
 		"icon": "home-assistant"
 	},
 	{
