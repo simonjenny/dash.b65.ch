@@ -4,7 +4,8 @@
   "description": "",
   "main": "dist/index.html",
   "scripts": {
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "deploy": "gulp && wraxx deploy"
   },
   "author": "simon.jenny@me.com",
   "license": "ISC",
