@@ -17,10 +17,11 @@
 		"url": "https://oasis.local",
 		"icon": "server"
 	},
+
 	{
-		"name": "Obsidian",
-		"url": "http://192.168.192.8:9000/#!/1/docker/dashboard",
-		"icon": "server"
+		"name": "simonjenny.dev CMS",
+		"url": "https://simonjenny.dev.wp-01.wraxx.ch/wp/wp-admin/",
+		"icon": "wordpress"
 	},
 
 	{
@@ -79,12 +80,6 @@
 		"name": "Uptime",
 		"url": "http://192.168.192.3:3001/dashboard",
 		"icon": "monitor-eye"
-	},
-
-	{
-		"name": "simonjenny.dev CMS",
-		"url": "https://simonjenny.dev.wp-01.wraxx.ch/wp/wp-admin/",
-		"icon": "wordpress"
 	}
 	],
 	
