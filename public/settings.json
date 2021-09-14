@@ -75,11 +75,6 @@
 		"name": "ESPHome",
 		"url": "http://192.168.192.3:6052",
 		"icon": "chip"
-	},
-	{
-		"name": "Uptime",
-		"url": "http://192.168.192.3:3001/dashboard",
-		"icon": "monitor-eye"
 	}
 	],
 	
