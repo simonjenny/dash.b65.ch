@@ -48,11 +48,6 @@
 		"url": "http://192.168.192.2:8989",
 		"icon": "television-box"
 	},
-	{
-		"name": "Chronos",
-		"url": "http://192.168.192.3:5000/scripts",
-		"icon": "timer-outline"
-	},
 
 	{
 		"name": "Home Assistant",
