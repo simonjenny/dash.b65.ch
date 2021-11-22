@@ -74,15 +74,19 @@
 		"name": "ESPHome",
 		"url": "http://192.168.192.3:6052",
 		"icon": "chip"
-	}
-	,
+	},
 	{
 		"name": "Prowlarr",
 		"url": "http://192.168.192.2:9696/search",
 		"icon": "cloud-search"
+	},
+	{
+		"name": "Remote",
+		"url": "https://remote.simonjenny.dev",
+		"icon": "remote-desktop"
 	}
-	],
-	
+],
+
 	"bookmarks": [{
 		"category": "Social Media",
 		"links": [{
