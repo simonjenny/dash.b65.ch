@@ -34,6 +34,11 @@
 		"icon": "plex"
 	},
 	{
+		"name": "Books",
+		"url": "https://books.simonjenny.dev",
+		"icon": "bookshelf"
+	},
+	{
 		"name": "Ombi",
 		"url": "https://ombi.simonjenny.dev",
 		"icon": "movie-search-outline"
@@ -48,7 +53,6 @@
 		"url": "http://192.168.192.2:8989",
 		"icon": "television-box"
 	},
-
 	{
 		"name": "Home Assistant",
 		"url": "http://192.168.192.3:8123",
@@ -64,11 +68,15 @@
 		"url": "http://192.168.192.4:8181",
 		"icon": "server-network"
 	},
-
 	{
 		"name": "qBittorrent",
 		"url": "http://192.168.192.2:8080",
 		"icon": "cloud-download-outline"
+	},
+	{
+		"name": "JDownloader",
+		"url": "http://192.168.192.2:9999/",
+		"icon": "download"
 	},
 	{
 		"name": "ESPHome",
