@@ -74,11 +74,6 @@
 		"icon": "cloud-download-outline"
 	},
 	{
-		"name": "JDownloader",
-		"url": "http://192.168.192.2:9999/",
-		"icon": "download"
-	},
-	{
 		"name": "ESPHome",
 		"url": "http://192.168.192.3:6052",
 		"icon": "chip"
