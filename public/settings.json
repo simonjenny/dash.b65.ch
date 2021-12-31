@@ -87,7 +87,13 @@
 		"name": "Remote",
 		"url": "https://remote.simonjenny.dev",
 		"icon": "remote-desktop"
+	},
+	{
+		"name": "JDownloader",
+		"url": "http://192.168.192.3:8080/vnc.html?autoconnect=true",
+		"icon": "remote-desktop"
 	}
+
 ],
 
 	"bookmarks": [{
@@ -99,6 +105,9 @@
 			{
 				"name": "Facebook",
 				"url": "https://facebook.com"
+			},{
+				"name": "TioTok",
+				"url": "https://tiktok.com"
 			}]
 		},
 		{
@@ -135,6 +144,19 @@
 				"url": "https://github.com/trending"
 			},
 			{
+				"name": "Dev.to",
+				"url": "https://dev.to/"
+			}
+		]
+		},
+
+		{
+		"category": "Cheatsheets",
+		"links": [{
+				"name": "Python",
+				"url": "https://gto76.github.io/python-cheatsheet/index.html?theme=dark3"
+			},
+			{
 				"name": "Devdocs",
 				"url": "https://devdocs.io"
 			},
@@ -152,6 +174,14 @@
 			{
 				"name": "YouTube",
 				"url": "https://youtube.com/feed/subscriptions"
+			},
+			{
+				"name": "Netflix",
+				"url": "https://netflix.com"
+			},
+			{
+				"name": "Disney+",
+				"url": "https://disneyplus.com"
 			}]
 		},
 		{
