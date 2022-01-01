@@ -213,7 +213,7 @@ a:hover{
 	flex-wrap: nowrap;
 	grid-column-gap: 20px;
 	grid-row-gap: 0px;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	grid-template-rows: auto;
 }
 
