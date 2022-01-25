@@ -22,16 +22,10 @@
 		"url": "https://simonjenny.dev/wp/wp-admin/",
 		"icon": "wordpress"
 	},
-
 	{
 		"name": "Plex",
 		"url": "https://media.simonjenny.dev",
 		"icon": "plex"
-	},
-	{
-		"name": "Books",
-		"url": "https://books.simonjenny.dev",
-		"icon": "bookshelf"
 	},
 	{
 		"name": "Ombi",
@@ -82,13 +76,7 @@
 		"name": "Remote",
 		"url": "https://remote.simonjenny.dev",
 		"icon": "remote-desktop"
-	},
-	{
-		"name": "JDownloader",
-		"url": "http://192.168.192.3:8080/vnc.html?autoconnect=true",
-		"icon": "remote-desktop"
 	}
-
 ],
 
 	"bookmarks": [{
