@@ -76,11 +76,6 @@
 		"name": "Remote",
 		"url": "https://remote.simonjenny.dev",
 		"icon": "remote-desktop"
-	},
-	{
-		"name": "PyLoad",
-		"url": "http://192.168.192.3:8000",
-		"icon": "cloud-download"
 	}
 ],
 
