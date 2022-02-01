@@ -20,7 +20,7 @@ jobs:
         npm install
         gulp
 
-    - name: FTP-Deploy-Action
+    - name: Upload to Wraxx
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
       env:
         FTP_SERVER: ${{ secrets.WRAXX_HOST }}
