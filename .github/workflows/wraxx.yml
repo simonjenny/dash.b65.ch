@@ -24,9 +24,12 @@ jobs:
         gulp
 
     - name: Upload to Wraxx
-      uses: SamKirkland/FTP-Deploy-Action@3.1.0
-      with:
-        ftp-server: sftp://${{ secrets.WRAXX_HOST }}
-        ftp-username: ${{ secrets.WRAXX_USERNAME }}
-        ftp-password: ${{ secrets.WRAXX_PASSWORD }}
-        local-dir: ./dist/
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      env:
+        FTP_SERVER: ${{ secrets.WRAXX_HOST }}
+        FTP_USERNAME: ${{ secrets.WRAXX_USERNAME }}
+        FTP_PASSWORD: ${{ secrets.WRAXX_PASSWORD }}
+        LOCAL_DIR: dist
+        METHOD: sftp
+        PORT: 22
+        ARGS: --delete 
