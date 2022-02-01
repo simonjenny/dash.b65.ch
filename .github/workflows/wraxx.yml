@@ -24,8 +24,8 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
       env:
         FTP_SERVER: ${{ secrets.WRAXX_HOST }}
-        FTP_USERNAME: ${{ secrets.WRAXX_PASSWORD }}
-        FTP_PASSWORD: ${{ secrets.WRAXX_USERNAME }}
+        FTP_USERNAME: ${{ secrets.WRAXX_USERNAME }}
+        FTP_PASSWORD: ${{ secrets.WRAXX_PASSWORD }}
         LOCAL_DIR: dist
         METHOD: sftp
         PORT: 22
