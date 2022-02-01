@@ -2,7 +2,10 @@ name: Build Dist and Upload to Wraxx
 
 on:
   workflow_dispatch:
-
+  push:
+      branches:
+        - main
+        
 jobs:
   build:
     runs-on: ubuntu-latest
