@@ -1,0 +1,32 @@
+name: Build Dist and Upload to Wraxx
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Use Node.js 14.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 14.x
+
+    - name: Build
+      run: |
+        npm install
+        gulp
+
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      env:
+        FTP_SERVER: ${{ secrets.WRAXX_HOST }}
+        FTP_USERNAME: ${{ secrets.WRAXX_PASSWORD }}
+        FTP_PASSWORD: ${{ secrets.WRAXX_USERNAME }}
+        LOCAL_DIR: dist
+        METHOD: sftp
+        PORT: 22
+        ARGS: --delete
