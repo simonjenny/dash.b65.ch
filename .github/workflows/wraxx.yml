@@ -1,11 +1,11 @@
 name: Build Dist and Upload to Wraxx
 
 on:
-  workflow_dispatch:
   push:
       branches:
         - main
-        
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,7 +24,7 @@ jobs:
         gulp
 
     - name: Upload to Wraxx
-      uses: SamKirkland/FTP-Deploy-Action@latest
+      uses: SamKirkland/FTP-Deploy-Action@4.2.0
       env:
         FTP_SERVER: ${{ secrets.WRAXX_HOST }}
         FTP_USERNAME: ${{ secrets.WRAXX_USERNAME }}
