@@ -24,7 +24,7 @@ jobs:
         gulp
 
     - name: Upload to Wraxx
-      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      uses: SamKirkland/FTP-Deploy-Action@latest
       env:
         FTP_SERVER: ${{ secrets.WRAXX_HOST }}
         FTP_USERNAME: ${{ secrets.WRAXX_USERNAME }}
