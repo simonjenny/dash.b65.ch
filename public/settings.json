@@ -28,11 +28,6 @@
 		"icon": "plex"
 	},
 	{
-		"name": "Ombi",
-		"url": "https://ombi.simonjenny.dev",
-		"icon": "movie-search-outline"
-	},
-	{
 		"name": "Radarr",
 		"url": "http://192.168.192.2:7878",
 		"icon": "filmstrip"
