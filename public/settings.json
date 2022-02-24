@@ -73,11 +73,6 @@
 		"icon": "remote-desktop"
 	},
 	{
-		"name": "Downloader",
-		"url": "http://192.168.192.2:8888/vnc.html?autoconnect=true",
-		"icon": "cloud-download"
-	},
-	{
 		"name": "Nextcloud",
 		"url": "https://cloud.simonjenny.dev",
 		"icon": "server"
