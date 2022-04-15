@@ -28,11 +28,6 @@
 		"icon": "plex"
 	},
 	{
-		"name": "Radarr",
-		"url": "http://192.168.192.2:7878",
-		"icon": "filmstrip"
-	},
-	{
 		"name": "Sonarr",
 		"url": "http://192.168.192.2:8989",
 		"icon": "television-box"
@@ -100,10 +95,6 @@
 				"url": "https://reddit.com/new"
 			},
 			{
-				"name": "Watson",
-				"url": "https://watson.ch"
-			},
-			{
 				"name": "Gizmodo",
 				"url": "https://gizmodo.com"
 			},
@@ -135,10 +126,7 @@
 
 		{
 		"category": "Cheatsheets",
-		"links": [{
-				"name": "Python",
-				"url": "https://gto76.github.io/python-cheatsheet/index.html?theme=dark3"
-			},
+		"links": [
 			{
 				"name": "Devdocs",
 				"url": "https://devdocs.io"
@@ -146,26 +134,25 @@
 			{
 				"name": "Devhints",
 				"url": "https://devhints.io"
-			}]
+			},
+			{
+				"name": "Python",
+				"url": "https://gto76.github.io/python-cheatsheet/index.html?theme=dark3"
+			}
+		]
 		},
 		{
 		"category": "Media",
-		"links": [{
-				"name": "Spotify",
-				"url": "http://open.spotify.com"
-			},
+		"links": [
 			{
 				"name": "YouTube",
 				"url": "https://youtube.com/feed/subscriptions"
 			},
 			{
-				"name": "Netflix",
-				"url": "https://netflix.com"
-			},
-			{
-				"name": "Disney+",
-				"url": "https://disneyplus.com"
-			}]
+				"name": "Nox",
+				"url": "https://forum.nox.to"
+			}
+		]
 		},
 		{
 		"category": "Business",
