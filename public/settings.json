@@ -24,7 +24,7 @@
 	},
 	{
 		"name": "Plex",
-		"url": "https://media.simonjenny.dev",
+		"url": "https://app.plex.tv/desktop/#!/",
 		"icon": "plex"
 	},
 	{
@@ -43,11 +43,6 @@
 		"icon": "shield-home-outline"
 	},
 	{
-		"name": "Nginx Proxy Manager",
-		"url": "http://192.168.192.4:8181",
-		"icon": "server-network"
-	},
-	{
 		"name": "qBittorrent",
 		"url": "http://192.168.192.2:8080",
 		"icon": "cloud-download-outline"
@@ -63,13 +58,8 @@
 		"icon": "cloud-search"
 	},
 	{
-		"name": "Remote",
-		"url": "https://remote.simonjenny.dev",
-		"icon": "remote-desktop"
-	},
-	{
 		"name": "Nextcloud",
-		"url": "https://cloud.simonjenny.dev",
+		"url": "https://192.168.192.2:8000",
 		"icon": "server"
 	}
 ],
