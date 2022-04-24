@@ -60,12 +60,12 @@
 	{
 		"name": "Nextcloud",
 		"url": "https://cloud.b65.ch",
-		"icon": "server"
+		"icon": "cloud"
 	},
 	{
 		"name": "Bitwarden",
 		"url": "https://vault.b65.ch",
-		"icon": "vault"
+		"icon": "book-lock"
 	}
 
 ],
