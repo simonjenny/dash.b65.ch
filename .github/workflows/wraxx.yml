@@ -24,7 +24,7 @@ jobs:
         gulp
 
     - name: Upload to Wraxx
-      uses: Kuvvu/Wraxx-Deploy@1.0.0
+      uses: Kuvvu/Wraxx-Deploy@1.0.1
       env:
         WRAXX_USERNAME: ${{ secrets.WRAXX_USERNAME }}
         WRAXX_PASSWORD: ${{ secrets.WRAXX_PASSWORD }}
