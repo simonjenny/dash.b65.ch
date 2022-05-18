@@ -8,11 +8,6 @@
 	],
 	"apps": [
 	{
-		"name": "Lux",
-		"url": "https://lux.local",
-		"icon": "server"
-	},
-	{
 		"name": "Oasis",
 		"url": "https://oasis.local",
 		"icon": "server"
@@ -34,7 +29,7 @@
 	},
 	{
 		"name": "Home Assistant",
-		"url": "http://192.168.192.3:8123",
+		"url": "http://192.168.192.2:8123",
 		"icon": "home-assistant"
 	},
 	{
@@ -49,7 +44,7 @@
 	},
 	{
 		"name": "ESPHome",
-		"url": "http://192.168.192.3:6052",
+		"url": "http://192.168.192.2:6052",
 		"icon": "chip"
 	},
 	{
