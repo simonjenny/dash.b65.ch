@@ -13,11 +13,6 @@
 		"icon": "server"
 	},
 	{
-		"name": "simonjenny.dev",
-		"url": "https://www.simonjenny.dev/wp/wp-admin/",
-		"icon": "wordpress"
-	},
-	{
 		"name": "Plex",
 		"url": "https://app.plex.tv/desktop/",
 		"icon": "plex"
