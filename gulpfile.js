@@ -71,7 +71,7 @@ gulp.task('download', function () {
 
 gulp.task('deploy', function() {
     return gulp.src('./build/**/*')
-        .pipe(gulp.dest('./dist'));
+        .pipe(gulp.dest('./docs'));
 });
 
 gulp.task('clean', function () {
