@@ -44,7 +44,7 @@
 	},
 	{
 		"name": "Prowlarr",
-		"url": "http://192.168.192.2:9696/search",
+		"url": "http://192.168.192.2:9696",
 		"icon": "cloud-search"
 	},
 	{
