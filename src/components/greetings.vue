@@ -12,4 +12,5 @@ export default {
 <template>
     <span class="mt-8 text-1xl font-bold">{{ today }}</span>
     <h1 class="mt-4 text-5xl font-bold">{{ strings }}</h1>
+    
 </template>

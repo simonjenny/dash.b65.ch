@@ -81,16 +81,16 @@
 				"url": "https://reddit.com/new"
 			},
 			{
-				"name": "Gizmodo",
-				"url": "https://gizmodo.com"
-			},
-			{
 				"name": "Heise",
 				"url": "https://heise.de/"
 			},
 			{
 				"name": "Golem",
 				"url": "https://golem.de/"
+			},
+			{
+				"name": "Laravel News",
+				"url": "https://laravel-news.com/"
 			}]
 		},
 		{
@@ -102,10 +102,6 @@
 			{
 				"name": "Github Trending",
 				"url": "https://github.com/trending"
-			},
-			{
-				"name": "Dev.to",
-				"url": "https://dev.to/"
 			}
 		]
 		},
@@ -120,10 +116,6 @@
 			{
 				"name": "Devhints",
 				"url": "https://devhints.io"
-			},
-			{
-				"name": "Python",
-				"url": "https://gto76.github.io/python-cheatsheet/index.html?theme=dark3"
 			}
 		]
 		},

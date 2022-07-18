@@ -11,7 +11,9 @@
   "dependencies": {
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.34",
-    "vue": "^3.2.37"
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.2",
+    "vue3-google-login": "^2.0.11"
   },
   "devDependencies": {
     "@iconify/vue": "^3.2.1",
