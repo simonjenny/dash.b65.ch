@@ -14,7 +14,6 @@ export default {
     }
 }
 </script>
-
 <template>
     <span>🇹🇭 Nächster Flug in {{ countdown.days }} Tagen, {{ countdown.hours }} Stunden, {{ countdown.minutes }} Minuten</span>
 </template>
