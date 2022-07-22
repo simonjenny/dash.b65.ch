@@ -6,7 +6,7 @@ export default {
         }
     },
     created() {
-       fetch('https://newsapi.org/v2/everything?pageSize=6&language=de&domains=heise.de&apiKey=' + this.Data.api)
+       fetch(this.Data.news)
             .then(response => response.json())
             .then( (data) => {
                 this.headlines = data.articles
