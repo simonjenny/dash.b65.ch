@@ -1,14 +1,13 @@
 import Data from './data/settings.json'
 import { createApp } from 'vue'
-import { Icon } from '@iconify/vue';
-
-import moment from 'moment/min/moment-with-locales';
-import momentTZ from 'moment-timezone'
-
+import { Icon } from '@iconify/vue'
 import './style.css'
-import './index.css'
-
 import App from './App.vue'
+
+import moment from 'moment'
+import 'moment/dist/locale/de'
+moment.locale('de');
+
 
 const access = (data, callback) => {
     if(localStorage.getItem('boobs') != data.notsosecret){
@@ -24,12 +23,8 @@ const access = (data, callback) => {
     callback(data)
 }
 
-access(Data, function(){
-    momentTZ.tz.setDefault('Europe/Zurich')
-    moment.locale('de')
-
+access(Data, function(){   
     let app = createApp(App)
-
     app.component('Icon', Icon);
     app.config.globalProperties.Data = Data
     app.config.globalProperties.Moment = moment;

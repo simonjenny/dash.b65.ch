@@ -1,4 +1,6 @@
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root{
 	--color-background: #242B33;
 	--color-text-pri: #EFFBFF;
